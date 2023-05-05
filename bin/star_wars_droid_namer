@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+#make this file executable by chmod a+x star_wars_droid_namer
+require_relative "lib/star_wars_droid_namer_cli"
+
+StarWarsDroidNamer::Cli.start(ARGV)
